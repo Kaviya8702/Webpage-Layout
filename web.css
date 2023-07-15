@@ -1,0 +1,240 @@
+.entire{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .topnav {
+      background-color: #f81d95;
+      overflow: hidden;
+  }
+  .home a{
+    text-decoration: none;
+    padding: 10px;
+    color: #000000;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    padding: 2px 10px 0px 10px;
+  text-decoration: none;
+    font-size: 17px;
+    
+  }
+  .call{
+    margin-inline-start: 300px;
+  }
+  
+  .topnav a.phno{
+    color: black;
+   
+  }
+  
+  .topnav a:hover {
+    background-color: #ee9eca ;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color:  #cb0c72;
+    color: rgb(168, 17, 168);
+  }
+  
+  .topnav-right {
+    margin-inline-start: 1000px;
+  }
+  #SIGN{
+      color: rgb(29, 27, 29);
+  }
+  
+  /*your log0*/
+  .nav{
+    background-color: #faf9f9;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 300px;
+  }
+  .nav a{
+    display: inline;
+    text-decoration: none;
+    color: black;
+    float: left;
+    font-size: 50px;
+   
+    
+  }
+  .nav a.log{
+    color:  #f81d95;
+    padding-left:15px;
+   
+  }
+  .bdd{
+    border: none;
+    color:rgb(36, 14, 14);
+    background-color:#faf9f9;
+  
+    cursor: pointer;
+  }
+  .bdd-con li{
+    color: #000000;
+    
+    padding: 15px 15px;
+    display:block;
+    text-decoration: none;
+  }
+  .bdd-con {
+    display: none;
+    position:fixed;
+    background-color:#faf9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+    z-index: 1;
+  }
+  .dropdown{
+    position:relative;
+    display: inline-block;
+    padding-left: 200px;
+  
+    padding-top: 20px;
+  }
+  .dropdown li{
+    font-size: 15px;
+  }
+  .bdd-con li:hover{
+    background-color:#d4bfbf;
+  }
+  .dropdown:hover .bdd-con{
+    display: block;
+  }
+  .dropdown:hover .bdd{
+    background-color:#faf9f9;
+  }
+  
+  
+  
+  .bdd1{
+    border: none;
+    color:rgb(36, 14, 14);
+    background-color:#faf9f9;
+    cursor: pointer;
+  }
+  .bdd-con1 li{
+    color: #000000;
+    
+    padding: 15px 15px;
+    display:block;
+    text-decoration: none;
+   
+  }
+  .bdd-con1 {
+    display: none;
+    position:fixed;
+    background-color:#faf9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  
+    z-index: 1;
+  }
+  .dropdown1{
+    position:relative;
+    display: inline-block;
+    padding-left: 30px;
+    padding-right: 0px;
+    padding-top: 20px;
+  }
+  .dropdown1 li{
+    font-size: 15px;
+  }
+  .bdd-con1 li:hover{
+    background-color:#d4bfbf;
+  }
+  .dropdown1:hover .bdd-con1{
+    display: block;
+  }
+  .dropdown1:hover .bdd1{
+    background-color:#faf9f9;
+  }
+  
+  
+  .bdd3{
+    border: none;
+    color:rgb(36, 14, 14);
+    background-color:#faf9f9;
+    cursor: pointer;
+    padding-right: 30px;
+  }
+  
+  .bdd4{
+    border: none;
+    color:rgb(36, 14, 14);
+    background-color:#faf9f9;
+    cursor: pointer;
+    padding-right: 30px;
+  }
+  
+  .bdd5{
+    border: none;
+    color:rgb(36, 14, 14);
+    background-color:#faf9f9;
+    cursor: pointer;
+  }
+  .contact{
+    margin-left: 300px;
+  }
+  .con{
+    font-size: 50px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+  }
+  .Cus{
+    font-size: 30px;
+    margin-top: 50px;
+  }
+  hr{
+    width: 40%;
+    margin-left:0px;
+    height: 5px;
+    color: #000000;
+    background-color: #000000;
+  }
+  
+  input[type=text], select, textarea {
+    width: 40%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=number], select, textarea {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+  }
+  
+  input[type=email], select, textarea {
+    width: 17%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    resize: vertical;
+  margin-left: 30px;
+  }
+  .em{
+    margin-left: 230px;
+  }
+  #subject{
+    width: 40%;
+    margin-left: 0px;
+  }
